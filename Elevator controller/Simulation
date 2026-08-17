@@ -1,0 +1,15 @@
+Test 1: Floor 0 → Floor 3
+ Time  | Requested Floor | Current Floor |
+| ----- | --------------- | ------------- |
+| 0 ns  | 0               | 0             |
+| 10 ns | 3               | 1             |
+| 20 ns | 3               | 2             |
+| 30 ns | 3               | 3             |
+| 40 ns | 3               | 3             | 
+The elevator reaches floor 3.
+Test 2: Floor 3 → Floor 1
+| Time  | Requested Floor | Current Floor |
+| ----- | --------------- | ------------- |
+| 50 ns | 1               | 2             |
+| 60 ns | 1               | 1             |
+| 70 ns | 1               | 1             |
